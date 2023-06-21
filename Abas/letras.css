@@ -1,0 +1,14 @@
+@charset "Utf-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    --color1: #A60815;
+    --color2: #D91E1E;
+    --color3: #FCF4EB;
+    --color4: #260101;
+}
+
+
+a#pontos{
+    background-color: rgb(233, 39, 39);
+}

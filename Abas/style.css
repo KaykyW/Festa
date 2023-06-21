@@ -11,7 +11,7 @@ body{
     background-color: var(--color3);
 }
 
-header{
+header.Index{
     background-image: linear-gradient(to left bottom, var(--color1), var(--color2))  ;
     height: 100px;
     position: relative;
@@ -19,7 +19,7 @@ header{
 
 
 }
-header > h1{
+header.Index > h1{
     text-align: right;
     color: white;
     text-shadow: 1px 1px 3px rgba(7, 59, 11, 0.315);
@@ -30,7 +30,7 @@ header > h1{
 
 
 }
-header > img{
+header.Index > img{
     width: 90px;
     position: absolute;
     top: 4px;
@@ -39,35 +39,40 @@ header > img{
 
 }
 
-nav{
+nav.Index{
     background-color: var(--color4);
     height: 30px;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.281);
-    padding-top:1.4%;
+    padding-top: 15px;
 
     
 }
-nav > a{
+nav.Index > a{
     text-decoration: none;
     color: white;
-    padding-left: 3%;
-    padding-right: 3%;
+    margin: 0px 8px;
+    padding: 5px 9px;
     border-left: 1px solid var(--color2);
 
 }
+nav.Index > a:hover{
+   background-color: var(--color2);
+   transition: .4s;
+}
 
-main > h1{
+main.Index > h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 6em;
     position: absolute;
+    margin: 10px;
     
 }
 div#Guias{
     background-image: linear-gradient(to top,var(--color4), var(--color2));
     display: inline-block;
     position: absolute;
-    top: 600px;
-    right: 10px;
+    top: 650px;
+    right: 50px;
     width: 260px;
     height: 250px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
