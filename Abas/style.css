@@ -7,14 +7,24 @@
     --color3: #FCF4EB;
     --color4: #260101;
 }
+
+
 body{
     background-color: var(--color3);
+    min-width:  fit-content;
+    min-height: fit-content;
+    max-width: 1080px ;
+    max-height: 1920px ;
+    
+   
+}
+::-webkit-scrollbar{
+    width: 0px;
 }
 
 header.Index{
     background-image: linear-gradient(to left bottom, var(--color1), var(--color2))  ;
     height: 100px;
-    position: relative;
     width: 100vw;
 
 
@@ -25,8 +35,10 @@ header.Index > h1{
     text-shadow: 1px 1px 3px rgba(7, 59, 11, 0.315);
     font-variant: small-caps;
     font-family: Helvetica, Arial, sans-serif;
-    padding-right: 100px;
-    padding-top: 8px;
+    position: absolute;
+    top: 8px;
+    right: 100px;
+    
 
 
 }
@@ -42,6 +54,7 @@ header.Index > img{
 nav.Index{
     background-color: var(--color4);
     height: 30px;
+    width: 100vw;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.281);
     padding-top: 15px;
 
@@ -50,7 +63,7 @@ nav.Index{
 nav.Index > a{
     text-decoration: none;
     color: white;
-    margin: 0px 8px;
+    margin: 0px 5px;
     padding: 5px 9px;
     border-left: 1px solid var(--color2);
 
@@ -60,23 +73,32 @@ nav.Index > a:hover{
    transition: .4s;
 }
 
+
+main.Index{
+    display: block;
+    position: relative;
+    height: auto;
+}
 main.Index > h1{
+    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 6em;
     position: absolute;
     margin: 10px;
+
     
 }
 div#Guias{
     background-image: linear-gradient(to top,var(--color4), var(--color2));
-    display: inline-block;
+    display: block;
     position: absolute;
-    top: 650px;
+    top: 550px;
     right: 50px;
-    width: 260px;
-    height: 250px;
+    width: 250px;
+    height: 240px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.418);
+
 
 }
 div#Guias > h2{
