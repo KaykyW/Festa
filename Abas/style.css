@@ -18,14 +18,11 @@ body{
     
    
 }
-::-webkit-scrollbar{
-    width: 0px;
-}
 
 header.Index{
     background-image: linear-gradient(to left bottom, var(--color1), var(--color2))  ;
     height: 100px;
-    width: 100vw;
+    width: 97vw;
 
 
 }
@@ -54,7 +51,7 @@ header.Index > img{
 nav.Index{
     background-color: var(--color4);
     height: 30px;
-    width: 100vw;
+    width: 97vw;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.281);
     padding-top: 15px;
 
@@ -77,7 +74,8 @@ nav.Index > a:hover{
 main.Index{
     display: block;
     position: relative;
-    height: auto;
+    height: 96vh;
+    width: 97vw;
 }
 main.Index > h1{
     
