@@ -22,7 +22,7 @@ body{
 header.Index{
     background-image: linear-gradient(to left bottom, var(--color1), var(--color2))  ;
     height: 100px;
-    width: 97vw;
+    width: 100vw;
 
 
 }
@@ -51,7 +51,7 @@ header.Index > img{
 nav.Index{
     background-color: var(--color4);
     height: 30px;
-    width: 97vw;
+    width: 100vw;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.281);
     padding-top: 15px;
 
